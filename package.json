@@ -1,7 +1,11 @@
 {
-  "name": "application-name",
+  "name": "react-requirejs",
   "version": "0.0.1",
+  "scripts": {
+    "build": "r.js -o build.js"
+  },
   "dependencies": {
+    "almond": "^0.3.3",
     "babel-core": "^5.8.38",
     "jquery": "^3.1.1",
     "react": "^15.4.2",
