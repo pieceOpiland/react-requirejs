@@ -6,7 +6,7 @@ very easy.
 
 Included in this project is a simple requirejs configuration that loads react and react-dom. It also is configured
 with the requirejs-babel plugin to compile jsx on the client. Additionally, this contains an optimization script for
-a production minified build. The build process compiles the jsx and es6 with Babel 5, and the produced artifact
+a production minified build. The build process compiles the jsx and es6 with Babel 6, and the produced artifact
 uses almond.
 
 For browser compatibility, the babel-polyfill is included, so this should run browers that aren't up to spec. If you
