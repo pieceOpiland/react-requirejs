@@ -1,6 +1,7 @@
 import React from "react";
+import createReactClass from "create-react-class";
 
-const MyComponent = React.createClass({
+const MyComponent = createReactClass({
     render() {
         return (<div>
             I'm a basic component. All I do is render,
